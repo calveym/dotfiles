@@ -10,9 +10,12 @@ export LS_COLORS="di=36:ln=35:so=32:pi=33:ex=31:bd=34;46:cd=34;43:su=30;41:sg=30
 
 alias la='ls -GFha'
 alias ls='ls -GFh'
+alias ll='ls -l'
 alias l='ls -GFh'
 
 
 alias gp='git push origin master'
 alias gac='git add . && git commit'
 alias gu='git fetch origin && git merge'
+
+alias cm='cd && cd code/MacSim'

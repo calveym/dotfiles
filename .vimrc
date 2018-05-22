@@ -84,7 +84,7 @@ syntax enable
 " zellner   - relaxed on eyes
 
 try
-	colorscheme murphy
+	colorscheme zellner
 catch
 endtry
 
@@ -153,6 +153,9 @@ set statusline+=\
 
 " fast saving with <leader>w			
 nmap <leader>w :w!<cr>
+
+" fast save and quit with <leader>q
+nmap <leader>q :wq!<cr>
 
 " search with <leader>f
 nmap <leader>f :?
