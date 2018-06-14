@@ -1,4 +1,3 @@
-
 export PS1="\[\033[31m\]\u\[\033[m\]@\[\033[35m\]\h:\[\033[31;1m\]\w\[\033[m\]\$ "
 
 export CLICOLOR=1
@@ -19,3 +18,9 @@ alias gac='git add . && git commit'
 alias gu='git fetch origin && git merge'
 
 alias cm='cd && cd code/MacSim'
+
+alias py='python'
+
+export GOPATH=$HOME/go
+export PATH=$GOPATH/bin
+
