@@ -21,6 +21,8 @@ alias cm='cd && cd code/MacSim'
 
 alias py='python'
 
-export GOPATH=$HOME/go
-export PATH=$GOPATH/bin
+alias ip='ifconfig getipaddr'
 
+export GOROOT=/usr/local/Cellar/go/1.10.3/libexec
+export GOPATH=$HOME/go
+export PATH=$PATH:$GOROOT/bin:$GOPATH/bin
